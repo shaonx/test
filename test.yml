@@ -1,0 +1,4 @@
+- hosts: linux
+  tasks:
+    - name: create data
+      shell: echo "777" > /tmp/a.txt
